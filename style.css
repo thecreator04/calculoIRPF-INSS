@@ -1,0 +1,236 @@
+@media(min-width:860px){
+    * { margin: 0; padding: 0; font-family:Tahoma; font-size:9pt;}
+    body{
+        background:url(./img/oee2.png);
+        
+        background-attachment: fixed, scroll;
+        background-repeat: no-repeat, repeat-y;
+    }
+    #organize{
+    width:50px;
+    height:30px;
+    border:1px solid#000;
+    position: absolute;
+    top: 40%; 
+    
+    }
+    #back{
+        position: fixed;
+        z-index:1;
+        left: 30px;
+        top: 4%;
+        width: 8em;
+        margin-top: -2.5em;
+        width:5%;
+        opacity : 0.8;
+        }
+    
+    #align{
+        border:2px solid rgb(212, 199, 199);
+       background-color:rgb(0, 0, 0,0.6);
+        width: 350px; 
+        height: 340px; 
+        left: 52%; 
+        margin: -130px 0 0 -210px; 
+        padding-top:40px;
+        padding-left:40px;
+        position: absolute; 
+        top: 40%; 
+        
+    }
+    #space{
+    width:80%;
+    height:100px;
+    /*margin-left:18%;*/
+    text-align: center;
+    font-size:50px;
+    color:rgba(0, 0, 0, 0.6);
+    margin-left:10%;
+    
+    }
+    form{
+    font:16px;
+    color:rgb(202, 196, 196);
+    padding-top:2px;
+    position: absolute;
+    font-weight: bold;
+    
+    
+    }
+    #align .box input{
+        border:none;
+        background-color: transparent;
+        outline:none;
+        border-bottom:2px solid rgb(255,255,255,0.8);
+        font-size: 12px solid#fff;
+        font-weight: bold;
+        color:white;
+        
+    
+    }
+    form #nome{
+        margin-bottom: 10px;
+        position:relative;
+        color: rgb(212, 199, 199);
+        
+        padding:5px;
+        width:250px;
+        display: block;
+       
+        
+        
+    }
+    form #salario{
+        margin-bottom: 10px;
+        position:relative;
+        color: rgb(212, 199, 199);
+        padding:5px;
+        width:250px;
+        display: block;
+    }
+    form #dependente{
+        margin-bottom: 10px;
+        position:relative;
+        color: rgb(212, 199, 199);
+        padding:5px;
+        width:50px;
+        display: block;
+    }
+    #text{
+    font-size: large;
+    color:rgb(235, 227, 227);
+    
+    }
+    
+    #calcular{
+    margin-top:30px;
+    padding:0px;
+    width:80px;
+    height:30px;
+    margin-left:34%;
+    border-radius: 20px;
+    font-weight: bold;
+    border:1px solid#fff;
+    color:rgb(66, 65, 65)
+    
+    }
+    
+    .table-dark{
+        margin-left:25%;
+        width:50%;
+        border-radius:5px;
+        background-color:rgb(0, 0, 0,0.6);
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    }
+    
+    @media(max-width:859px){
+        #back{
+            position: fixed;
+            left: 10px;
+            top: 2%;
+            width: 8em;
+            margin-top: -2.5em;
+            width:10%;
+            opacity : 0.8;
+     }
+     
+    #align{
+        border:2px solid rgb(212, 199, 199);
+       background-color:rgb(0, 0, 0,0.6);
+        width: 350px; 
+        height: 340px; 
+        left: 58%; 
+        margin: -130px 0 0 -210px; 
+        padding-top:50px;
+        padding-left:50px;
+      margin-top:80px;
+      margin-left:-200px;
+      color:white;
+        
+        
+    }
+    #align .box input{
+        border:none;
+        background-color: transparent;
+        outline:none;
+        border-bottom:2px solid rgb(255,255,255,0.8);
+        font-size: 12px solid#fff;
+        font-weight: bold;
+        color:white;
+        
+    
+    }
+    #space{
+        width:80%;
+        height:120px;
+        margin-left:50%;
+     
+        font-size:50px;
+        color:rgba(0, 0, 0, 0.0);
+       
+        
+        }
+    body{
+        background:url(./img/oee2.png);
+        
+       /* background-attachment: fixed, scroll;
+        background-repeat: no-repeat, repeat-y;*/
+    }
+    form #nome{
+        margin-bottom: 5px;
+        position:relative;
+        color: rgb(212, 199, 199);
+        
+        padding:1px;
+        width:250px;
+        display: block;
+       
+        
+        
+    }
+    form #salario{
+        margin-bottom: 5px;
+        position:relative;
+        color: rgb(212, 199, 199);
+        padding:5px;
+        width:250px;
+        display: block;
+    }
+    form #dependente{
+        margin-bottom: 5px;
+        position:relative;
+        color: rgb(212, 199, 199);
+        padding:5px;
+        width:50px;
+        display: block;
+    }
+    #text{
+        font-size: large;
+        color:rgb(235, 227, 227);
+        
+        }
+    
+    #calcular{
+        margin-top:30px;
+        padding:0px;
+        width:80px;
+        height:30px;
+        margin-left:28%;
+        border-radius: 20px;
+        font-weight: bold;
+        border:1px solid#fff;
+        color:rgb(66, 65, 65)
+        
+        }
+    .table-dark{
+        margin-left:30%;
+        width:20%;
+        margin-right:30%;
+        border-radius:5px;
+        background-color:rgb(0, 0, 0,0.6);
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    }
